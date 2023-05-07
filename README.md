@@ -1,7 +1,6 @@
 # Mapping_Hibernate
 
-This project is a sample implementation of a web application built using Java, Hibernate, Spring Boot, and MySQL. The application demonstrates the usage of Hibernate for Object Relational Mapping (ORM) and the Spring framework for creating RESTful APIs. The project uses Maven as a build tool.
-
+This project is a basic Employee-Address Management System built using Java, Spring Boot, Hibernate, and a SQL database. It demonstrates the use of one-to-one mapping between the Employee and Address entities.
 ## FrameWorks and Language Used
 
 Java
@@ -9,6 +8,8 @@ Java
 Hibernate
 
 Spring Boot
+
+Spring Web
 
 MySQL
 
@@ -18,10 +19,13 @@ Maven
 
 1- The client sends a request to the server through a RESTful API.
 
-2- The request is handled by the controller, which interacts with the repository.
+2- The request is handled by the controller, which interacts with the repository. 
 
-3- The repository performs the required database operations using Hibernate.
-The data is returned to the controller, which returns a response to the client.
+3- The server processes the requests and interacts with the database using JDBC.
+
+4- The database returns data to the server.
+
+5- The server processes the data and sends an HTTP response to the client.
 
 ## Database Design
 
@@ -29,4 +33,4 @@ The database design for this project consists of two tables, employee and addres
 
 ## Project Summary
 
-This project demonstrates how to build a web application using Java, Hibernate, and Spring Boot. It shows how to use Hibernate for Object Relational Mapping (ORM) and how to create RESTful APIs using the Spring framework. The project also demonstrates how to use Maven as a build tool and how to connect to a MySQL database. Overall, this project provides a good starting point for building a more complex web application using Java, Hibernate, and Spring Boot.
+TThe project demonstrates the basic implementation of a one-to-one mapping between the Employee and Address entities using Hibernate. It also showcases the use of CRUD operations on a SQL database using Spring Boot. The project uses Maven to manage dependencies and Spring Web Tools and Spring Web for development.
